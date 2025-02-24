@@ -46,7 +46,7 @@ function Footer() {
           </a>
           <div className="footer__bottom-item" style={{marginTop: 50}}>
             <span>© 2024 Copyright |</span>
-            <a href="https://www.limon.uz">Website developement: <span>Limon</span></a>
+            <a href="https://www.instagram.com/limon.uz_/" target={'_blank'}>Website developement: <span>Limon</span></a>
           </div>
         </div>
         <div className="footer__map">
