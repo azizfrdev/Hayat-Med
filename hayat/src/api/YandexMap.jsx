@@ -8,7 +8,7 @@ const YandexMap = () => {
             <Map
                 defaultState={{ center: coordinates, zoom: 16 }}
                 width="100%"
-                height="400px"
+                height="100%"
                 overflow= 'hidden'
             >
                 <Placemark geometry={coordinates} />

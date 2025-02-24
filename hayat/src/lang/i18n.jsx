@@ -57,7 +57,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         region: "Toshkent viloyati, Qibray tumani, Salar shaharchasi, Gulimamur ko'chasi, 5/1",
         social: 'Ijtimoiy tarmoq',
         subscribe: "Obuna bo'ling",
-        call: "Bizga qo‘ng‘iroq qiling",
+        call: "Qo‘ng‘iroq qiling",
       }
     },
   }
