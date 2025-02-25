@@ -21,7 +21,10 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         region: 'Tashkent region, Kibrai district, Salar urban settlement, Gulimamur Street, 5/1',
         social: 'Social Network',
         subscribe: 'Subscribe',
-        call: 'Call us'
+        call: 'Call us',
+        diagnostics: 'Diagnostics',
+        hospital: 'Hospital',
+        children: 'Children department'
       },
     },
     ru: {
@@ -40,6 +43,9 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         social: 'Социальная сеть',
         subscribe: 'Подписаться',
         call: 'Позвоните нам',
+        diagnostics: 'Диагностика',
+        hospital: 'Больница',
+        children: 'Детское отделение',
       }
     },
     uz: {
@@ -58,6 +64,9 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         social: 'Ijtimoiy tarmoq',
         subscribe: "Obuna bo'ling",
         call: "Qo‘ng‘iroq qiling",
+        diagnostics: 'Diagnostika',
+        hospital: 'Kasalxona',
+        children: 'Детское отделение',
       }
     },
   }
