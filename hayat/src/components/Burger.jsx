@@ -12,6 +12,10 @@ const App = () => {
     setMenuOpen((prev) => !prev);
   };
 
+  const closeMenu = () => {
+    setMenuOpen(false)
+  }
+
   return (
     <div className="app">
       <div className="header2">
@@ -23,43 +27,43 @@ const App = () => {
             <div className="nav__inner">
               <ul className="nav__list">
                 <li>
-                  <Link to="/about" className="nav-link">
+                  <Link to="/about" className="nav-link" onClick={closeMenu}>
                     {t("about")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/services" className="nav-link">
+                  <Link to="/services" className="nav-link" onClick={closeMenu}>
                     {t("services")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/doctors" className="nav-link">
+                  <Link to="/doctors" className="nav-link" onClick={closeMenu}>
                     {t("doctors")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/news" className="nav-link">
+                  <Link to="/news" className="nav-link" onClick={closeMenu}>
                     {t("news")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/team" className="nav-link">
+                  <Link to="/team" className="nav-link" onClick={closeMenu}>
                     {t("team")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/media" className="nav-link">
+                  <Link to="/media" className="nav-link" onClick={closeMenu}>
                     {t("media")}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact" className="nav-link">
+                  <Link to="/contact" className="nav-link" onClick={closeMenu}>
                     {t("contact")}
                   </Link>
                 </li>
               </ul>
               <BasicButtonExample />
-              <Link to="/results" className="nav__link-know">
+              <Link to="/results" className="nav__link-know" onClick={closeMenu}>
                 {t("results")}
               </Link>
             </div>
