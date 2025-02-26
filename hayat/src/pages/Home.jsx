@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import '../assets/css/Home.css';
 import { useTranslation } from 'react-i18next';
+import Services from './Services';
+
+
+const obj = {
+  ism: 'Abbos',
+  yosh: 23, };
+  obj.yili = 1999
+  console.log(obj.yili);
 
 function Home() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -79,16 +87,23 @@ function Home() {
           </div>
           <div className="swiper free-slider free-slider--start swiper-container-initialized swiper-container-horizontal">
             <div className="swiper-wrapper">
-              <div className="swiper-slide free-slider__item swiper-slide-duplicate" style={{width: 1423}}>
+              <div className="swiper-slide free-slider__item swiper-slide-duplicate">
                 <img src="https://hayatmed.uz/en/uploads/sliders/10/slide-original-1920x508.jpg" alt="#!" className="free-slider__item-img" />
                 <div className="container free-slider__item-contant">
-                  <h2 className="free-slider__item-title">The pediatrician at our clinic works around the clock, 24/7.</h2>
+                  <h2 className="free-slider__item-title">{t("peditarion")}</h2>
+                  <p className="free-slider__item-text">
+                  {t('carouselText')}
+                  </p>
+                  <a href="#!" className="free-slider__item-btn">
+                    <span className="free-slider__item-btn-text" style={{color: 'white'}}>{t("more")}</span>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Services />
     </main>
   );
 }

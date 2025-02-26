@@ -320,6 +320,13 @@ footer {
   height: 100%;
 }
 
+@media (max-width: 1440px) {
+  .nav__list li {
+    margin-right: 22px;
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 1320px) {
   .nav__inner {
     display: none;
