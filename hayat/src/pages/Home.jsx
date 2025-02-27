@@ -1,18 +1,30 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../assets/css/Home.css';
 import { useTranslation } from 'react-i18next';
 import Services from './Services';
+import axios from 'axios';
+import { useParams } from 'react-router-dom/dist';
 
-
-const obj = {
-  ism: 'Abbos',
-  yosh: 23, };
-  obj.yili = 1999
-  console.log(obj.yili);
+const api = 'https://hayatm.onrender.com';
 
 function Home() {
   const [activeIndex, setActiveIndex] = useState(null);
   const { t } = useTranslation();
+  const { id } = useParams();
+  const [doctor, setDoctor] = useState(null);
+
+  const fetchDoctor = async () => {
+    try {
+      const response = await axios.get(`${api}/doctor/${id}`);
+      setDoctor(response.data.doctor);
+    } catch (error) {
+      console.error("Error fetching doctor details:", error);
+    }
+  };
+
+  useEffect(() => {
+    if (id) fetchDoctor();
+  }, [id]);
 
   const images = [
     'https://hayatmed.uz/en/uploads/gallery/big-30639e.jpg',
@@ -104,6 +116,20 @@ function Home() {
         </div>
       </section>
       <Services />
+      <section className="specialist">
+        <h2 className="title specialist__title">{t('specialist')}</h2>
+        <div className="container specialist__intro">
+        {doctor ? (
+        <div>
+          <p><strong>Name:</strong> {doctor.name}</p>
+          <p><strong>Position:</strong> {doctor.position}</p>
+          <p><strong>Phone:</strong> {doctor.phone}</p>
+        </div>
+        ) : (
+          <p>Loading doctor details...</p>
+        )}
+        </div>
+      </section>
     </main>
   );
 }
