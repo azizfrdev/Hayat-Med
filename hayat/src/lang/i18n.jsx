@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 
 i18n.use(LanguageDetector).use(initReactI18next).init({
   debug: true,
-  lng: "en",
+  lng: "ru",
   resources: {
     en: {
       translation: {
@@ -41,6 +41,14 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         pulmonolog: 'Pulmonology',
         otolor: 'Otolaryngology',
         gastro: 'Gastroenterology',
+        oftol: 'Ophthalmology',
+        plastic: 'Plastic Surgery',
+        heart: 'Cardiology',
+        urolog: 'Urology',
+        ginekolog: 'Gynecology',
+        lab: 'Laboratory',
+        vasc: 'Vascular Surgery',
+        diagnos: 'Diagnosis',
       },
     },
     ru: {
@@ -78,6 +86,14 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         pulmonolog: 'Пульмонология',
         otolor: 'Отоларингология',
         gastro: 'Гастроэнтерология',
+        oftol: 'Офтальмология',
+        plastic: 'Пластическая хирургия ',
+        heart: 'Кардиология',
+        urolog: 'Урология',
+        ginekolog: 'Гинекология',
+        lab: 'Лаборатория',
+        vasc: 'Сосудистая хирургия',
+        diagnos: 'Диагностика',
       }
     },
     uz: {
@@ -114,7 +130,15 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         allerg: 'Allergologiya',
         pulmonolog: 'Pulmonologia',
         otolor: 'Otorinolaringologiya',
-        gastro: 'Gastroenterologiya'
+        gastro: 'Gastroenterologiya',
+        oftol: 'Oftalmologiya',
+        plastic: 'Plastik jarrohlik',
+        heart: 'Kardiologiya',
+        urolog: 'Urologiya',
+        ginekolog: 'Ginekologiya',
+        lab: 'Laboratoriya',
+        vasc: 'Tomir jarrohligi',
+        diagnos: 'Diagnostika'
       }
     },
   }
