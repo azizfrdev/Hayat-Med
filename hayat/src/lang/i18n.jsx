@@ -49,6 +49,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         lab: 'Laboratory',
         vasc: 'Vascular Surgery',
         diagnos: 'Diagnosis',
+        specialist: 'Our Specialists',
       },
     },
     ru: {
@@ -94,6 +95,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         lab: 'Лаборатория',
         vasc: 'Сосудистая хирургия',
         diagnos: 'Диагностика',
+        specialist: 'Наши специалисты',
       }
     },
     uz: {
@@ -138,7 +140,8 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         ginekolog: 'Ginekologiya',
         lab: 'Laboratoriya',
         vasc: 'Tomir jarrohligi',
-        diagnos: 'Diagnostika'
+        diagnos: 'Diagnostika',
+        specialist: 'Bizning mutaxassislarimiz',
       }
     },
   }

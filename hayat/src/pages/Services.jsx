@@ -121,7 +121,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("endacri")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -136,7 +136,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("endacri")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ function Services() {
                       {t("neurology")}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -174,7 +174,7 @@ function Services() {
                       {t("neurology")}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("allerg")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -208,7 +208,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("allerg")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -229,7 +229,7 @@ function Services() {
                       {t("pulmonolog")}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -246,7 +246,7 @@ function Services() {
                       {t("pulmonolog")}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -265,7 +265,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("otolor")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("otolor")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -299,7 +299,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("gastro")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("gastro")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -333,7 +333,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("oftol")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -348,7 +348,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("oftol")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -367,7 +367,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("plastic")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -382,7 +382,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("plastic")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -401,7 +401,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("heart")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -416,7 +416,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("heart")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -435,7 +435,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">Hayat KIDS</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -450,7 +450,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">Hayat KIDS</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -469,7 +469,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("urolog")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -484,7 +484,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("urolog")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -505,7 +505,7 @@ function Services() {
                       {t("ginekolog")}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -522,7 +522,7 @@ function Services() {
                       {t("ginekolog")}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -541,7 +541,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("lab")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -556,7 +556,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("lab")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -575,7 +575,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("vasc")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -590,7 +590,7 @@ function Services() {
                   <div className="opportun__card-text-wrap">
                     <span className="opportun__card-title">{t("vasc")}</span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -611,7 +611,7 @@ function Services() {
                       {t('diagnos')}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
@@ -628,7 +628,7 @@ function Services() {
                       {t('diagnos')}
                     </span>
                     <p className="opportun__card-text">
-                      Instrumental methods of research and diagnosis of diseases
+                      {t('instrumental')}
                     </p>
                   </div>
                 </div>
