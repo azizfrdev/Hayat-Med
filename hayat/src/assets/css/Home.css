@@ -308,30 +308,6 @@ svg {
   transition: 0.3s all ease;
 }
 
-/* Specialist */
-
-.specialist {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 80px 20px 80px 20px;
-}
-
-.specialist__title {
-  margin-bottom: 80px;
-}
-
-.specialist__intro {
-  position: relative;
-  display: flex;
-}
-
-.specialist__intro::before {
-  left: 0;
-  background: linear-gradient(to right, #fff 1%, rgba(255, 255, 255, 0) 99.19%);
-}
-
 @media (max-width: 1700px) {
   .intro__btn-container {
       padding: 0 20px;
