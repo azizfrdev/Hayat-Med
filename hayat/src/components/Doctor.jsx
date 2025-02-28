@@ -6,14 +6,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+const api = 'https://hayatm.onrender.com';
+
 const DoctorsCarousel = () => {
   const [doctors, setDoctors] = useState([]);
-  const api = 'https://hayatm.onrender.com';
 
   const fetchDoctors = async () => {
     try {
       const response = await axios.get(`${api}/doctors`);
-      console.log("Fetched Doctors:", response.data.doctors); // Debugging
+      console.log("Fetched Doctors:", response.data.doctors); 
       setDoctors(response.data.doctors);
     } catch (error) {
       console.error("Failed to fetch doctors:", error);
