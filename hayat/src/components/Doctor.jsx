@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 const api = 'https://hayatm.onrender.com';
 
@@ -29,9 +24,8 @@ const DoctorsCarousel = () => {
     <div className="p-4">
       <h2 className="text-2xl font-bold mb-4">Our Doctors</h2>
       {doctors.length > 0 ? (
-        <Swiper
+        <div
           key={doctors.length}
-          modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={30}
           slidesPerView={3}
           navigation
@@ -45,7 +39,7 @@ const DoctorsCarousel = () => {
           }}
         >
           {doctors.map((doctor) => (
-            <SwiperSlide key={doctor._id}>
+            <div key={doctor._id}>
               <div className="p-4 bg-white rounded-lg shadow-md">
                 <img
                   src={doctor.image}
@@ -55,9 +49,9 @@ const DoctorsCarousel = () => {
                 <h3 className="text-xl font-semibold">{doctor.en_name}</h3>
                 <p className="text-gray-500">{doctor.en_position}</p>
               </div>
-            </SwiperSlide>
+            </div>
           ))}
-        </Swiper>
+        </div>
       ) : (
         <p>No doctors available</p>
       )}
