@@ -50,6 +50,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         vasc: 'Vascular Surgery',
         diagnos: 'Diagnosis',
         specialist: 'Our Specialists',
+        ourdoctors: 'Our Doctors',
       },
     },
     ru: {
@@ -96,6 +97,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         vasc: 'Сосудистая хирургия',
         diagnos: 'Диагностика',
         specialist: 'Наши специалисты',
+        ourdoctors: 'Наши врачи',
       }
     },
     uz: {
@@ -142,6 +144,7 @@ i18n.use(LanguageDetector).use(initReactI18next).init({
         vasc: 'Tomir jarrohligi',
         diagnos: 'Diagnostika',
         specialist: 'Bizning mutaxassislarimiz',
+        ourdoctors: 'Bizning shifokorlarimiz',
       }
     },
   }
